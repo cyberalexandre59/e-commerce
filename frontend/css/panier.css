@@ -1,0 +1,75 @@
+.container {
+    margin-top: 80px;
+    padding-top: 150px;
+}
+
+#panier-title {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #343a40;
+}
+
+#cart-items .card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cart-items .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+#cart-items .card-text {
+    margin-bottom: 5px;
+}
+
+#cart-items .form-control {
+    max-width: 80px;
+    margin: 0 auto;
+}
+
+#clear-cart-btn {
+    margin-top: 20px;
+}
+
+#checkout-form {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#checkout-form h3 {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+#checkout-form .form-label {
+    font-weight: bold;
+}
+
+#checkout-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#checkout-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#cart-items .total-amount {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    color: #343a40;
+}

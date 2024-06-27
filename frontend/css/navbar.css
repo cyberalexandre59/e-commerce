@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #f8f9fa;
+    position: fixed;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+#titre {
+    font-size: 50px;
+    color: transparent;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+}

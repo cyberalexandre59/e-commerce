@@ -1,0 +1,53 @@
+.container {
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #343a40;
+}
+
+#confirmation-details {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+#confirmation-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+#confirmation-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+#confirmation-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#confirmation-details li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#confirmation-details strong {
+    color: #007bff;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
