@@ -6,46 +6,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes matrixAnimation {
-    0% {
-        opacity: 0.1;
-    }
-    50% {
-        opacity: 0.5;
-        transform: translateY(-3px);
-    }
-    100% {
-        opacity: 0.1;
-    }
-}
-
-.navbar-brand {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #00ff00;
-    text-align: center;
-    padding: 10px;
-    background-color: #000000;
-    border: 2px solid #00ff00;
-    border-radius: 8px;
-    animation: matrixAnimation 2s infinite;
+.nav-link {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 20px;
     transition: all 0.3s ease;
 }
 
-.navbar-brand:hover {
-    background-color: #000000;
-    color: #ff0000;
-    border-color: #ff0000; /* Bordure rouge au survol */
-    animation: none; /* Arrêter l'animation au survol */
-}
-
-.nav-link {
-    font-size: 1.4rem; /* Taille du texte légèrement augmentée */
-    color: black; /* Couleur du texte blanc */
-    margin-left: 20px; /* Espacement entre les liens */
-    transition: all 0.3s ease; /* Transition douce pour les effets */
-}
-
 .nav-link:hover {
-    color: #3498db; /* Couleur bleue au survol */
+    color: #3498db;
 }

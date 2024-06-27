@@ -2,7 +2,25 @@ body {
     padding-top: 150px;
 }
 
-.camera-container {
+.navbar {
+    background-color: #f8f9fa;
+    position: fixed;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+#titre {
+    font-size: 40px;
+    color: #4CAF50;
+}
+
+#camera-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
@@ -16,12 +34,18 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.camera:hover {
+    transform: translateY(-5px);
 }
 
 .camera img {
     border-radius: 8px 8px 0 0;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .camera .card-body {
@@ -29,8 +53,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .camera-container {
+    #camera-container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 10px;
+        gap: 15px;
     }
 }
