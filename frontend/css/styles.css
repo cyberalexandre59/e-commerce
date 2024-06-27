@@ -2,24 +2,6 @@ body {
     padding-top: 150px;
 }
 
-.navbar {
-    background-color: #f8f9fa;
-    position: fixed;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-}
-
-.nav-link {
-    font-size: 1.2rem;
-}
-
-#titre {
-    font-size: 40px;
-    color: #4CAF50;
-}
-
 #camera-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
