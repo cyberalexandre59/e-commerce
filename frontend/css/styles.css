@@ -2,7 +2,7 @@ body {
     padding-top: 150px;
 }
 
-.teddy-container {
+.camera-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
@@ -11,25 +11,25 @@ body {
     margin: auto;
 }
 
-.teddy {
+.camera {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 15px;
 }
 
-.teddy img {
+.camera img {
     border-radius: 8px 8px 0 0;
     width: 100%;
     height: auto;
 }
 
-.teddy .card-body {
+.camera .card-body {
     padding: 15px;
 }
 
 @media (max-width: 768px) {
-    .teddy-container {
+    .camera-container {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 10px;
     }
