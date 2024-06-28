@@ -1,10 +1,9 @@
 # CyberShop
-Bienvenue sur CyberShop, votre boutique en ligne pour des produits électroniques de haute qualité. Ce site utilise HTML, CSS, JavaScript et Bootstrap pour offrir une expérience utilisateur moderne et réactive.
+Bienvenue sur CyberShop, votre boutique en ligne pour des produits électroniques de haute qualité. Ce site utilise HTML, CSS et JavaScript pour offrir une expérience utilisateur moderne et réactive.
 
 ## Technologies Utilisées
 * HTML5
 * CSS3
-* Bootstrap 5.3.0
 * Font Awesome 5.15.4
 * JavaScript (ES6)
 * Fetch API
